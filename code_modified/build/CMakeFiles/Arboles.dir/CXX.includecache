@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/usuario/practicas/AyEDA/PR6_MODI/src/AB.h
+iostream
+-
+vector
+-
+fstream
+-
+bits/stdc++.h
+-
+Nodo_B.h
+/home/usuario/practicas/AyEDA/PR6_MODI/src/Nodo_B.h
+
+/home/usuario/practicas/AyEDA/PR6_MODI/src/ABB.h
+AB.h
+/home/usuario/practicas/AyEDA/PR6_MODI/src/AB.h
+
+/home/usuario/practicas/AyEDA/PR6_MODI/src/AVL.h
+ABB.h
+/home/usuario/practicas/AyEDA/PR6_MODI/src/ABB.h
+Nodo_AVL.h
+/home/usuario/practicas/AyEDA/PR6_MODI/src/Nodo_AVL.h
+
+/home/usuario/practicas/AyEDA/PR6_MODI/src/Nodo_AVL.h
+Nodo_B.h
+/home/usuario/practicas/AyEDA/PR6_MODI/src/Nodo_B.h
+
+/home/usuario/practicas/AyEDA/PR6_MODI/src/Nodo_B.h
+iostream
+-
+
+/home/usuario/practicas/AyEDA/PR6_MODI/src/arboles_main.cc
+iostream
+-
+ABB.h
+/home/usuario/practicas/AyEDA/PR6_MODI/src/ABB.h
+AVL.h
+/home/usuario/practicas/AyEDA/PR6_MODI/src/AVL.h
+
